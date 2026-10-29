@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Roteiro 9 anos · v2</title>
+<meta name="robots" content="noindex, nofollow, noarchive">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Geist:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ground:#F7F7F7; --paper:#FFFFFF; --cream:#F5F0E8;
+    --ink:#1A1A1A; --ink-2:#3A3A3A; --ink-3:#6B6B6B;
+    --line:#DADADA; --line-soft:#E8E8E8;
+    --brown:#603F2E; --black:#000000;
+    --shadow:0 1px 2px rgba(0,0,0,.04), 0 20px 50px -34px rgba(0,0,0,.35);
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--ground);color:var(--ink);font-family:"Geist",system-ui,sans-serif;font-weight:300;padding-bottom:env(safe-area-inset-bottom,0px)}
+  .serif{font-family:"Baskervville",Georgia,serif}
+  .wrap{max-width:900px;margin:0 auto;padding:0 16px}
+
+  .cover{background:var(--black);color:#fff;padding:72px 0 56px}
+  .eyebrow{font-size:11.5px;font-weight:500;letter-spacing:.34em;text-transform:uppercase;color:#C9B8A8;margin-bottom:18px}
+  .cover h1{font-family:"Baskervville",Georgia,serif;font-weight:400;font-size:clamp(40px,8vw,76px);line-height:1;margin:0 0 22px;letter-spacing:-.01em}
+  .cover h1 em{font-style:italic;color:#E8DCCD}
+  .cover .lead{font-size:clamp(15px,2vw,18px);line-height:1.65;max-width:58ch;color:#D6D6D6;margin:0 0 32px}
+  .meta{display:flex;flex-wrap:wrap;gap:8px 32px;font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:#9A9A9A}
+  .meta b{color:#fff;font-weight:500}
+
+  section{padding:48px 0;border-bottom:1px solid var(--line-soft)}
+  section:last-of-type{border-bottom:none}
+  .kicker{font-size:11.5px;font-weight:500;letter-spacing:.3em;text-transform:uppercase;color:var(--brown);margin-bottom:10px}
+  h2{font-family:"Baskervville",Georgia,serif;font-weight:400;font-size:clamp(28px,4.4vw,42px);line-height:1.08;margin:0 0 20px}
+  h2 em{font-style:italic;color:var(--brown)}
+  p{line-height:1.7;color:var(--ink-2)}
+  .lead{font-size:clamp(16px,2vw,18.5px);max-width:64ch}
+
+  .camadas{display:grid;gap:10px;margin:22px 0}
+  .camada{background:var(--paper);border-left:3px solid var(--black);padding:16px 20px;display:flex;gap:14px;align-items:baseline;flex-wrap:wrap;box-shadow:var(--shadow)}
+  .camada b{font-family:"Baskervville",Georgia,serif;font-weight:400;font-size:20px;color:var(--ink);min-width:150px}
+  .camada span{color:var(--ink-2);font-size:15px;line-height:1.55}
+  .camada.extra{border-left-color:var(--brown);background:var(--cream)}
+  .fio{background:var(--cream);padding:20px 22px;margin-top:18px;font-size:15.5px;line-height:1.65;color:var(--ink)}
+  .fio b{font-weight:500}
+
+  .logi{background:var(--paper);padding:24px 26px;border-top:2px solid var(--black);margin-top:20px;box-shadow:var(--shadow)}
+  .logi dl{display:grid;grid-template-columns:auto 1fr;gap:10px 20px;margin:0}
+  .logi dt{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3);white-space:nowrap;padding-top:2px}
+  .logi dd{margin:0;color:var(--ink);line-height:1.55}
+  .logi .note{margin-top:16px;padding-top:16px;border-top:1px solid var(--line-soft);font-size:14px;color:var(--ink-2)}
+
+  .quadro-head{margin-bottom:24px}
+  .qtag{font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--brown);margin-bottom:8px;font-weight:500}
+  .quadro-head p{max-width:70ch}
+
+  .ep{background:var(--paper);padding:24px 26px;border-top:2px solid var(--black);margin-bottom:18px;box-shadow:var(--shadow)}
+  .ep.brown{border-top-color:var(--brown)}
+  .ep-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:8px 20px;margin-bottom:14px}
+  .epn{font-family:"Baskervville",Georgia,serif;font-size:22px;color:var(--ink)}
+  .who{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--brown);font-weight:500}
+  .principal{font-size:17px;color:var(--ink);font-weight:400;margin:0 0 14px;line-height:1.5}
+  .label{font-size:11px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3);margin:18px 0 8px}
+  ul.q{margin:0;padding-left:18px;color:var(--ink-2);line-height:1.65}
+  .quote-box{background:var(--cream);padding:12px 16px;margin:6px 0;font-family:"Baskervville",Georgia,serif;font-size:18px;font-style:italic;color:var(--ink);line-height:1.45}
+  .quote-box small{display:block;font-family:"Geist",sans-serif;font-style:normal;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3);margin-top:6px}
+  .takes{font-size:14.5px;color:var(--ink-2);line-height:1.6;margin:0}
+
+  .tl{display:grid;gap:0;margin-top:18px;border-left:2px solid var(--black)}
+  .tl div{padding:12px 0 12px 20px;position:relative}
+  .tl div::before{content:"";position:absolute;left:-6px;top:19px;width:10px;height:10px;border-radius:50%;background:var(--black)}
+  .tl b{font-weight:500;color:var(--ink)}
+  .tl span{display:block;color:var(--ink-2);font-size:14.5px;line-height:1.55}
+
+  .regras{background:var(--black);color:#E6E6E6;padding:24px 26px;margin-top:8px}
+  .regras li{margin:6px 0;line-height:1.55}
+  .regras b{color:#fff;font-weight:500}
+
+  footer{padding:28px 0 48px;color:var(--ink-3);font-size:12.5px}
+  @media (max-width:640px){
+    .cover{padding:52px 0 40px} section{padding:36px 0}
+    .logi dl{grid-template-columns:1fr} .logi dt{padding-top:8px}
+    .camada b{min-width:0}
+  }
+
+  .edit{width:100%;border-collapse:collapse;margin-top:10px;font-size:14.5px}
+  .edit td{padding:10px 8px;border-bottom:1px solid var(--line-soft);vertical-align:top;line-height:1.55;color:var(--ink-2)}
+  .edit td:first-child{white-space:nowrap;font-weight:500;color:var(--brown);width:84px}
+  .lets{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-top:10px}
+  .let{background:var(--black);color:#fff;padding:16px;text-align:center}
+  .let b{display:block;font-family:"Baskervville",Georgia,serif;font-size:34px;font-weight:400;line-height:1}
+  .let span{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#C9B8A8}
+  .warn{background:#FFF4E5;border-left:3px solid #B5532A;padding:12px 16px;margin:12px 0;font-size:14.5px;line-height:1.55;color:var(--ink)}
+  .seg{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3);margin:16px 0 4px}
+  .hooks li{margin:6px 0}
+</style>
+</head>
+<body>
+
+<header class="cover"><div class="wrap">
+  <div class="eyebrow">Øliver's · roteiro de gravação · v2 com as considerações da Manu</div>
+  <h1>9 anos de <em>Øliver's</em></h1>
+  <p class="lead">Nove anos fazendo parte da história de quem escolhe a Øliver's. A gravação de hoje conta isso pela voz de quem viveu: a história da casa, os clientes que marcaram esses 9 anos e como a gente vai retribuir com 9 meses de pizza.</p>
+  <div class="meta">
+    <span>Gravação <b>Quinta, 29/10</b></span>
+    <span>Com <b>Matheus · Edilson</b></span>
+    <span>Campanha <b>01 a 09/11</b></span>
+  </div>
+</div></header>
+
+<section><div class="wrap">
+  <div class="kicker">O que mudou da v1</div>
+  <h2>Menos peças, <em>mais história</em></h2>
+  <div class="camadas">
+    <div class="camada"><b>Um vídeo só</b><span>"Clientes da Casa" e "9 Meses de Øliver's" viram uma peça única: os clientes especiais puxam a dinâmica dos 9 meses de pizza</span></div>
+    <div class="camada"><b>Narração nova</b><span>o storytelling de domingo passa a ser "9 anos fazendo parte da sua história", com as promoções em lettering</span></div>
+    <div class="camada"><b>Bate-bola</b><span>a história da Øliver's com Matheus e Edilson respondendo as mesmas perguntas, editado intercalando os dois</span></div>
+  </div>
+  <div class="logi">
+    <dl>
+      <dt>Quando</dt><dd>Quinta-feira, 29/10 · horário [a definir]</dd>
+      <dt>Onde</dt><dd>[a definir] · se der, numa loja com salão (dá pra gravar a parede de envelopes), variando o cenário: sentado no salão, em pé na cozinha, andando na fachada</dd>
+      <dt>Quem</dt><dd><b>Matheus + Edilson</b> no bate-bola e nos clientes · <b>Matheus</b> na dinâmica dos 9 meses e na narração</dd>
+      <dt>Levar</dt><dd>Premium Ticket impresso + caixa de pizza + fita · fotos antigas da primeira loja no celular do Matheus · uma pizza pra mesa</dd>
+    </dl>
+    <p class="note">Gravar primeiro <b>o vídeo dos clientes + 9 meses</b>, porque ele carrega a regra da campanha. Depois, <b>a narração</b>, num lugar silencioso, com lapela. Em cada pergunta, gravar 2 ou 3 versões da primeira frase: o gancho sai na edição.</p>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <div class="quadro-head">
+    <div class="qtag">Quadro 1 · bate-bola · sai sexta, 30/10</div>
+    <h2>A história <em>da Øliver's</em></h2>
+    <p>Matheus e Edilson respondem as mesmas perguntas, cada um do seu jeito. Na edição, intercalar os dois. Tom de conversa, não de entrevista.</p>
+  </div>
+  <div class="ep">
+    <div class="ep-head"><span class="epn">Bate-bola</span><span class="who">Matheus + Edilson</span></div>
+    <ul class="q">
+      <li>Como a Øliver's começou, lá em Maricá, em 2017?</li>
+      <li>Qual era a sua função na Øliver's quando tudo começou?</li>
+      <li>Quando vocês se deram conta de que queriam expandir e abrir mais lojas?</li>
+      <li>Qual foi o momento mais importante da Øliver's até hoje, na sua visão?</li>
+      <li>O que tinha na primeira loja que não tem mais hoje?</li>
+    </ul>
+    <div class="label">Gancho (opção)</div>
+    <div class="quote-box">"Como a gente foi de um forno em Maricá pra 9 casas em 9 anos."</div>
+    <div class="label">CTA final (opção)</div>
+    <div class="quote-box">"Desde quando você pede Øliver's? Conta aqui."</div>
+    <div class="label">Takes</div>
+    <p class="takes">Os dois sentados no salão, falando pra câmera. Intercalar com as fotos antigas da primeira loja e B-roll das lojas de hoje: o antes e depois conta a história sozinho.</p>
+  </div>
+  <div class="ep">
+    <div class="ep-head"><span class="epn">Extra · 9 casas em uma frase</span><span class="who">Matheus</span></div>
+    <p class="principal">Em uma frase: o que cada casa da Øliver's tem de especial?</p>
+    <p class="takes">Gravar as 9 em sequência, com o nome da unidade antes: Maricá, Itaipuaçu, Niterói, São Gonçalo, Alcântara, Cabo Frio, Araruama, Copacabana e Lapa. Base do carrossel "9 casas, 9 histórias" (04/11).</p>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <div class="quadro-head">
+    <div class="qtag">Quadro 2 · obrigatório · sai segunda, 02/11 (fixado)</div>
+    <h2>Clientes da Casa <em>+ 9 meses de Øliver's</em></h2>
+    <p>Um vídeo só. Começa com Matheus e Edilson lembrando os clientes que marcaram a Øliver's e vira a dinâmica: esse ano, a casa vai presentear quem mais esteve com ela. Fica fixado no perfil e roda nos stories durante os 9 dias.</p>
+  </div>
+  <div class="ep">
+    <div class="ep-head"><span class="epn">Parte 1 · quem marcou esses 9 anos</span><span class="who">Matheus + Edilson</span></div>
+    <p class="principal">Nesses 9 anos de Øliver's, quais clientes mais marcaram a história da marca?</p>
+    <div class="label">Complementares</div>
+    <ul class="q">
+      <li>Qual cliente vocês nunca vão esquecer?</li>
+      <li>Quem é o cliente mais fiel de que vocês lembram?</li>
+      <li>Já aconteceu um momento importante de alguém dentro de uma Øliver's (aniversário, pedido de namoro)?</li>
+      <li>Tem alguém que pede sempre a mesma pizza há anos?</li>
+    </ul>
+    <p class="takes">Resposta livre. Os dois lado a lado, com uma pizza na mesa. Nome de cliente só entra com autorização.</p>
+  </div>
+  <div class="ep brown">
+    <div class="ep-head"><span class="epn">Parte 2 · a dinâmica dos 9 meses</span><span class="who">Matheus</span></div>
+    <div class="label">Gancho (proposta da Manu)</div>
+    <div class="quote-box">"Você pode ganhar 9 meses de Øliver's de presente! Quer saber como?"</div>
+    <div class="label">Outras opções de gancho</div>
+    <ul class="q hooks">
+      <li>"E se a sua pizza viesse de presente pelos próximos 9 meses?"</li>
+      <li>"Quantas vezes você pediu Øliver's esse ano? Esse número pode virar 9 meses de pizza."</li>
+      <li>"9 anos, 9 regiões, 9 clientes. Será que um deles é você?"</li>
+      <li>"Esse ano a gente decidiu presentear quem mais esteve com a gente."</li>
+      <li>"A gente lembra de cada cliente que fez parte desses 9 anos. E agora é a nossa vez."</li>
+    </ul>
+    <div class="label">Fala</div>
+    <div class="quote-box">A gente vai presentear quem mais pediu pelo nosso site em 2026, em cada uma das 9 regiões, com 9 meses de pizza. Uma pizza grande por mês, do sabor que quiser!</div>
+    <div class="quote-box">Quantas vezes você acha que pediu Øliver's esse ano? Comenta aqui que a gente te chama no direct pra confirmar seu cadastro.</div>
+    <div class="label">Takes</div>
+    <p class="takes">Fecha com o Premium Ticket sendo <b>preso com fita na caixa da pizza</b>. Gravar esse take também sozinho, sem rosto, pros stories. Se a loja tiver salão, gravar a parede de envelopes.</p>
+    <div class="label">Não pode</div>
+    <p class="takes"><b>Não é sorteio.</b> Nada de "sorteio", "concorrer", "peça pra ganhar" ou "ticket escondido".</p>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <div class="quadro-head">
+    <div class="qtag">Narração · sai domingo, 01/11 (abertura)</div>
+    <h2>9 anos fazendo parte <em>da sua história</em></h2>
+    <p>50 a 60 segundos · voz do Matheus · acervo + imagens atuais. Gravar a narração hoje, num lugar silencioso, com lapela.</p>
+  </div>
+  <div class="ep brown">
+    <div class="ep-head"><span class="epn">Narração</span><span class="who">Matheus · voz</span></div>
+    <div class="seg">00 a 08s · gancho · imagens de clientes, pizzas e momentos especiais</div>
+    <div class="quote-box">Quantas histórias cabem em uma pizza?<br>Um primeiro encontro, uma comemoração, uma sexta-feira qualquer que virou memória.</div>
+    <div class="seg">08 a 20s · origem · fotos antigas de Maricá, primeiro forno, equipe</div>
+    <div class="quote-box">Em 2017, a nossa história começava em Maricá. Com um forno aceso, um sonho enorme e uma vontade ainda maior de fazer diferente.<br>De lá pra cá, crescemos. Mas nunca esquecemos o que nos trouxe até aqui.</div>
+    <div class="seg">20 a 33s · crescimento · preparos, equipe, entregas, clientes e unidades</div>
+    <div class="quote-box">Já são 9 anos, mais de 500 mil clientes encantados e milhares de histórias de que tivemos o privilégio de fazer parte.<br>E se você fez tudo isso acontecer, chegou a nossa vez de retribuir.</div>
+    <div class="seg">33 a 50s · campanha · envelopes, pizzas, Premium Ticket e pedidos</div>
+    <div class="quote-box">Nesse aniversário, são mais de 400 presentes nas nossas lojas, 9 clientes especiais recebendo pizza por 9 meses e 9 dias de condições especiais no delivery.</div>
+    <div class="seg">50 a 60s · encerramento · sequência de clientes, equipe e logo</div>
+    <div class="quote-box">Há 9 anos, você escolhe a Øliver's.<br>E todos os dias, a gente escolhe fazer da sua experiência a melhor possível.<br><b>ØLIVER'S · 9 ANOS.</b><br><i>A nossa história é feita da sua.</i></div>
+
+    <div class="label">Direção de edição · dinâmica e emocional</div>
+    <table class="edit">
+      <tr><td>00 a 08s</td><td>Montagem rápida de momentos reais. Começar com som ambiente e trilha delicada.</td></tr>
+      <tr><td>08 a 20s</td><td>Fotos antigas, primeira loja, forno e registros históricos. Cortes mais lentos e nostálgicos.</td></tr>
+      <tr><td>20 a 33s</td><td>Acelerar a montagem: produção, entregadores, equipe, clientes e fachadas. Lettering com +500 mil clientes.</td></tr>
+      <tr><td>33 a 50s</td><td>Virada musical. Parede de envelopes, pizzas sendo servidas, Premium Ticket e cardápio online. Letterings curtos pra cada benefício.</td></tr>
+      <tr><td>50 a 60s</td><td>A música chega no ápice, sequência de sorrisos e experiências. Final com logo e assinatura dos 9 anos.</td></tr>
+    </table>
+
+    <div class="label">Letterings da campanha</div>
+    <p class="takes">Os detalhes comerciais ficam nos letterings, acompanhando as imagens, pra não sobrecarregar a narração.</p>
+    <div class="lets">
+      <div class="let"><b>405</b><span>presentes nas lojas</span></div>
+      <div class="let"><b>9</b><span>clientes · 9 meses de pizza</span></div>
+      <div class="let"><b>9</b><span>dias de preços especiais</span></div>
+      <div class="let"><b>01 a 09</b><span>de novembro</span></div>
+    </div>
+    <ul class="q" style="margin-top:12px">
+      <li>Pizzas selecionadas e especiais</li>
+      <li>Cupom <b>9ANOSOLV</b> · R$ 90 de presente</li>
+    </ul>
+    <div class="warn">⚠️ <b>Antes de publicar:</b> o cupom <b>9ANOSOLV</b> e as condições da seção especial ainda dependem da aprovação da Alline (Gabi, 28/10: nada de valor de cupom em peça até ela aprovar). Confirmar também a fonte dos <b>+500 mil clientes</b>. Se não der tempo, a peça sai com esses dois letterings fora.</div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <div class="kicker">Como entra na campanha</div>
+  <h2>Do primeiro vídeo <em>ao 9º dia</em></h2>
+  <div class="tl">
+    <div><b>30/10 · sexta</b><span>Quadro 1, bate-bola "A história da Øliver's". Nos stories, contagem regressiva pro dia 01.</span></div>
+    <div><b>31/10 · sábado</b><span>Só Halloween. O aniversário não entra.</span></div>
+    <div><b>01/11 · domingo · abertura</b><span>Narração "9 anos fazendo parte da sua história" + a influenciadora de Maricá, a casa onde tudo começou. Nos stories, a parede de envelopes abrindo.</span></div>
+    <div><b>02/11 · segunda</b><span>Quadro 2, "Clientes da Casa + 9 meses de Øliver's", fixado no perfil.</span></div>
+    <div><b>03 a 09/11 · campanha</b><span>Influenciadoras intercaladas com os nossos posts: carrossel "9 casas, 9 histórias" em 04/11. O dia 06/11, que era do "Clientes da Casa", fica livre pra cortes do bate-bola ou um reforço da dinâmica.</span></div>
+    <div><b>05/11 · Gatola da Cartola</b><span>O filme entra no feed. O aniversário fica nos stories nesse dia.</span></div>
+    <div><b>Depois do 09/11</b><span>Os vencedores recebendo a pizza, com autorização de cada um.</span></div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <div class="kicker">Antes de gravar</div>
+  <h2>O que <em>não pode</em></h2>
+  <div class="regras">
+    <ul>
+      <li><b>Nada de faturamento, número de sociedade ou contrato</b> na fala. O que é público: 9 anos, 9 casas, nascida em Maricá em 2017.</li>
+      <li><b>O slogan é "Vamos surpreender e encantar você".</b> "A melhor pizza da galáxia" foi aposentado.</li>
+      <li><b>Não é sorteio.</b> Nada de "sorteio", "concorrer" ou "peça pra ganhar".</li>
+      <li><b>Valor de cupom só depois da aprovação da Alline.</b></li>
+      <li><b>Cliente só com autorização:</b> nome, rosto e história.</li>
+      <li><b>Dado só depois de confirmado</b> ("+500 mil clientes", "a mais pedida", "a primeira"...). Na dúvida, a frase sai sem o número.</li>
+    </ul>
+  </div>
+</div></section>
+
+<footer><div class="wrap">Øliver's · roteiro interno de gravação · 9 anos · v2 com as considerações da Manu, 29/10/2026 · v1 da Luiza: <a href="https://dev-seven7.github.io/olivers-9anos-roteiro/">olivers-9anos-roteiro</a></div></footer>
+</body>
+</html>
